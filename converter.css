@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.block {
+    background-color:crimson;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    color: cyan;
+
+}
+
+form {
+    margin: 40px;
+}
+
+input {
+    width: 70%;
+    height: 30%;
+    margin: 10px;
+}

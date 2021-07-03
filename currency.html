@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency</title>
+</head>
+<body>
+    <div class="currency-row-outer">
+        <div class="currency-converter">
+          <h2>Currency Converter</h2>
+    
+          <div class="field grid-50-50">
+            <div class="colmun col-left">
+              <input type="number" class="form-input" id="number" placeholder="00000">
+            </div>
+            <div class="colmun col-right">
+              <div class="select">
+                <select name="currency" class="currency" onchange="updatevalue()"></select>
+              </div>
+            </div>
+          </div>
+    
+          <div class="field grid-50-50">
+            <div class="colmun col-left">
+              <input type="text" class="form-input" id="output" placeholder="00000" disabled>
+            </div>
+            <div class="colmun col-right">
+              <div class="select">
+                <select name="currency" class="currency" onchange="updatevalue()"></select>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+    
+<script src="./currency.js"></script>
+
+
+</body>
+</html>
